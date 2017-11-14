@@ -1,5 +1,5 @@
-<h1><%= @article.title %></h1>
-<p><%= @article.content %></p>
+<%= kramdown @article.title %>
+<%= kramdown @article.content %>
 
 <%= link_to "Edit me", edit_article_path %>
 <br>
@@ -8,3 +8,5 @@
       data: { confirm: "Are you sure?" } %>
 <br>
 <%= link_to "View all articles", articles_path  %>
+
+

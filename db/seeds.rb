@@ -13,7 +13,7 @@ puts "Creating 10 fake results"
 10.times do
   article = Article.create(
     title: Faker::RickAndMorty.quote,
-    content: Faker::Lorem.paragraph(2)
+    content: Faker::Lorem.paragraph(10)
     )
   # post.save!
 end
