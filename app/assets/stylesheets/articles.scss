@@ -1,3 +1,87 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: black;
+  font-family: 'Libre Franklin', sans-serif;
+  display: flex;
+  align-items: baseline;
+
+}
+
+.content {
+background-color: white;
+margin: 50px;
+width: 900px;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  padding: 10px;
+
+}
+
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+
+
+.container {
+  height: 50vh;
+}
+
+.btn a{
+  background-color: white;
+  border: solid 1px white;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 10px;
+
+}
+
+.btn a:hover {
+opacity: 0.6;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+}
+
+
